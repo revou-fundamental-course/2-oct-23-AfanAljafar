@@ -1,0 +1,17 @@
+.content-home {
+    margin: 50px;
+    padding: 50px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url("/space.jpg");
+    background-size: 100%;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: 2px 2px 5px black;
+}
