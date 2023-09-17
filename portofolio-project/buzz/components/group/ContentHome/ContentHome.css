@@ -1,7 +1,10 @@
 .content-home {
-    margin: 50px;
+    position: absolute;
     padding: 50px;
-    height: 50vh;
+    height: 80vh;
+    width: 70vw;
+    top: 12vh;
+    right: 1vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,8 +12,9 @@
     border-radius: 20px;
     background-image: url("/space.jpg");
     background-size: 100%;
+    background-repeat: cover;
     color: white;
-    font-size: x-large;
+    font-size: medium;
     font-weight: bold;
     text-align: justify;
     text-shadow: 2px 2px 5px black;

@@ -4,7 +4,7 @@
     background-color: transparent;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .Link-comp:hover {
-    height: 20vh;
+    height: 10vh;
     width: 20vw;
     background-color: beige;
     color: black;

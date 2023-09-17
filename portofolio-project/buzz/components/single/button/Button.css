@@ -1,8 +1,8 @@
 .Button-comp{
-    height: 60px;
-    font-size: 20px;
+    height: 40px;
+    font-size: 12px;
     font-weight: bolder;
-    border: 1px solid rgb(192, 187, 187);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
     padding: 0 30px;
     background-color:rgb(43, 42, 42);
@@ -12,4 +12,5 @@
 .Button-comp:hover{
     color: black;
     background-color: beige;
+    border: 1px solid beige;
 }
