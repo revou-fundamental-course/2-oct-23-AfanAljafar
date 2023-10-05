@@ -13,17 +13,28 @@ public class ArithmeticOpertationUsingArrayVariable {
 
         System.out.println(res[0]);
 
+        Scanner sc = new Scanner(System.in);
         //addition operation
         System.out.println("==============================================");
         System.out.println("addition operation");
         System.out.println("==============================================");
-        Scanner sc = new Scanner(System.in);
         System.out.print("enter first number : ");
         num1[1] = sc.nextInt();
         System.out.print("enter second number : ");
         num2[1] = sc.nextInt();
         res[1] = num1[1] + num2[1];
         System.out.println("result :" + res[1]);
+
+        //reduction operation
+        System.out.println("==============================================");
+        System.out.println("reduction operation");
+        System.out.println("==============================================");
+        System.out.print("enter first number : ");
+        num1[2] = sc.nextInt();
+        System.out.print("enter second number : ");
+        num2[2] = sc.nextInt();
+        res[2] = num1[2] - num2[2];
+        System.out.println("result :" + res[2]);
 
 
     }
