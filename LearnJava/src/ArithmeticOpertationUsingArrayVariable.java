@@ -13,6 +13,10 @@ public class ArithmeticOpertationUsingArrayVariable {
 
         System.out.println(res[0]);
 
+        //addition operation
+        System.out.println("==============================================");
+        System.out.println("addition operation");
+        System.out.println("==============================================");
         Scanner sc = new Scanner(System.in);
         System.out.print("enter first number : ");
         num1[1] = sc.nextInt();
