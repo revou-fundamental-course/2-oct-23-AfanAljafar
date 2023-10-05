@@ -36,6 +36,38 @@ public class ArithmeticOpertationUsingArrayVariable {
         res[2] = num1[2] - num2[2];
         System.out.println("result :" + res[2]);
 
+        //multiplication operation
+        System.out.println("==============================================");
+        System.out.println("multiplication operation");
+        System.out.println("==============================================");
+        System.out.print("enter first number : ");
+        num1[3] = sc.nextInt();
+        System.out.print("enter second number : ");
+        num2[3] = sc.nextInt();
+        res[3] = num1[3] * num2[3];
+        System.out.println("result :" + res[3]);
+
+        //division operation
+        System.out.println("==============================================");
+        System.out.println("division operation");
+        System.out.println("==============================================");
+        System.out.print("enter first number : ");
+        num1[4] = sc.nextInt();
+        System.out.print("enter second number : ");
+        num2[4] = sc.nextInt();
+        res[4] = num1[4] / num2[4];
+        System.out.println("result :" + res[4]);
+
+        //modulus operation
+        System.out.println("==============================================");
+        System.out.println("modulus operation");
+        System.out.println("==============================================");
+        System.out.print("enter first number : ");
+        num1[5] = sc.nextInt();
+        System.out.print("enter second number : ");
+        num2[5] = sc.nextInt();
+        res[5] = num1[5] % num2[5];
+        System.out.println("result :" + res[5]);
 
     }
 }
