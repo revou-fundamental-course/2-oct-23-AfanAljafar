@@ -1,13 +1,13 @@
 .section-one {
     position: absolute;
-    padding: 50px;
+    padding: 30px;
     height: 81vh;
     width: 70vw;
     top: 12vh;
     right: 1vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:baseline;
     justify-content: space-between;
     border-radius: 20px;
     background-image: url("/space.jpg");
@@ -24,6 +24,8 @@
     .section-one {
         top: 27vh;
         height: 66vh;
+        overflow: scroll;
+        padding: 15px;
     }
 
 }

@@ -30,6 +30,17 @@
     
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline;
+}
 @media screen and (max-width: 875px) {
     .header-comp {
         flex-direction: column;
@@ -44,6 +55,18 @@
 
     .header-right{
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    li {
+        display: inline;
         align-items: center;
         justify-content: space-between;
     }

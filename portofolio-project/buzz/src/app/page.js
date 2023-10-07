@@ -1,7 +1,7 @@
 import Footer from "../../components/group/footer";
 import Header from "../../components/group/header";
 import Aside from "../../components/group/aside";
-import SectionOne from "../../components/group/ContentHome";
+import SectionOne from "../../components/group/sectionone";
 
 export default function Home() {
   return (

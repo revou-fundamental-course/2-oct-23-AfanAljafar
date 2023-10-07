@@ -1,6 +1,7 @@
 "use client";
 
 import Button from "../../single/button";
+import HomeButton from "../../single/homeButton";
 import LinkComp from "../../single/link";
 import Title from "../../single/title";
 import "./header.css";
@@ -12,12 +13,21 @@ export default function Header() {
         <Title children={"Buzz Space!"}></Title>
       </div>
       <div className="header-right">
-        <LinkComp children={"Home"} href="/Blog" />
-        <Button
-          children={"Start New Project"}
-          type={"button"}
-          onClickEvent={() => null}
-        />
+        <ul>
+          <li>
+            <LinkComp children={"Blog"} href="/Blog" />
+          </li>
+          <li>
+            <HomeButton children={""} href={"/"} />
+          </li>
+          <li>
+            <Button
+              children={"Start New Project"}
+              type={"button"}
+              onClickEvent={() => null}
+            />
+          </li>
+        </ul>
       </div>
     </nav>
   );

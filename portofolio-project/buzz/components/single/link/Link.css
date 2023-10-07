@@ -1,14 +1,14 @@
 .Link-comp {
     height: 5vh;
-    min-width: 100px;
+    width: 130%;
     background-color: transparent;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bolder;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .Link-comp:hover {
