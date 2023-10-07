@@ -1,5 +1,5 @@
-import "./ContentHome.css";
+import "./sectionone.css";
 
-export default function ContentHome({ children }) {
-  return <div className="content-home">{children}</div>;
+export default function SectionOne({ children }) {
+  return <div className="section-one">{children}</div>;
 }

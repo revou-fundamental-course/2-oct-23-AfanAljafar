@@ -1,4 +1,4 @@
-.content-home {
+.section-one {
     position: absolute;
     padding: 50px;
     height: 81vh;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 875px) {
-    .content-home {
+    .section-one {
         top: 27vh;
         height: 66vh;
     }

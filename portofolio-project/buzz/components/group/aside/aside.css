@@ -1,4 +1,4 @@
-.sideKick {
+.aside {
     position: absolute;
     padding: 30px;
     height: 81vh;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 875px) {
-    .sideKick {
+    .aside {
         top: 27vh;
         height: 66vh;
     }

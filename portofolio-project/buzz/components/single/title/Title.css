@@ -1,6 +1,4 @@
 .Title-comp {
-    padding: 0px;
-    margin: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,4 +6,5 @@
     color: rgb(0, 0, 0);
     font-size: 25px;
     font-weight: bolder;
+    padding-right: 2.5vw;
 }

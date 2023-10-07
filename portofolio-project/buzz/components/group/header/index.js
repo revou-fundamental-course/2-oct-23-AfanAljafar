@@ -3,7 +3,6 @@
 import Button from "../../single/button";
 import LinkComp from "../../single/link";
 import Title from "../../single/title";
-import Image from "next/image";
 import "./header.css";
 
 export default function Header() {

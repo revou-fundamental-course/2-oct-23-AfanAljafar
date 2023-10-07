@@ -23,8 +23,6 @@
 }
 
 .header-right {
-    
-    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,9 +34,17 @@
     .header-comp {
         flex-direction: column;
         height: 25vh;
+        padding: 20px;
+    }
+
+    .header-left{
+        align-items: center;
+        justify-content: space-between;
     }
 
     .header-right{
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 }

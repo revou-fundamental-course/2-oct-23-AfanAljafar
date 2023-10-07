@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Title({ children }) {
   return (
     <div className="Title-comp">
-      <Image src="/logo.png" width={80} height={80} alt="logo" />
+      <Image src="/logo.png" width={58} height={58} alt="logo" />
       {children}
     </div>
   );
