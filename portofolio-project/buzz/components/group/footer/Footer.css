@@ -1,11 +1,11 @@
 .footer{
     position: fixed;
-    bottom: 1vh;
-    width: 98vw;
+    bottom: 0vh;
+    width: 100%;
     height: 5vh;
-    left: 1vw;
     background-color: black;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .tribute{
@@ -29,4 +29,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    scroll-behavior: auto;
 }

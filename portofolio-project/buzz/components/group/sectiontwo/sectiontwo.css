@@ -1,4 +1,14 @@
-.section-one {
+.backdrop-layer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 101vh;
+    
+    background-color: transparent;
+}
+
+.section-two{
     position: absolute;
     padding: 30px;
     height: 83vh;
@@ -9,7 +19,7 @@
     flex-direction: row;
     align-items:baseline;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 20px;
     background-image: url("/space.jpg");
     background-size: 100%;
     background-repeat: cover;
@@ -20,24 +30,12 @@
     text-shadow: 2px 2px 5px black;
 }
 
-.the-astronaut{
-    display: flex;
-    float: right;
-    align-items: baseline;
-}
-
 @media screen and (max-width: 875px) {
-    .section-one {
+    .section-two {
         top: 26vh;
         height: 68vh;
         overflow: scroll;
         padding: 15px;
-    }
-
-    .the-astronaut{
-        float: left;
-        height: 200px;
-        width: 200px;
     }
 
 }
