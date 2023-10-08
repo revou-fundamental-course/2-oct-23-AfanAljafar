@@ -25,6 +25,7 @@ export default function SectionOne({ children }) {
         lacus, non pharetra lacus mi eu augue. Nulla suscipit odio at felis
         ornare posuere. Nulla vitae tristique tellus.
       </p>
+
       {children}
     </div>
   );

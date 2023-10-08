@@ -15,6 +15,9 @@ export default function Header() {
       <div className="header-right">
         <ul>
           <li>
+            <LinkComp children={"Services"} href="/Services" />
+          </li>
+          <li>
             <LinkComp children={"Blog"} href="/Blog" />
           </li>
           <li>
@@ -25,6 +28,7 @@ export default function Header() {
               children={"Start New Project"}
               type={"button"}
               onClickEvent={() => null}
+              href={"/Portofolio"}
             />
           </li>
         </ul>

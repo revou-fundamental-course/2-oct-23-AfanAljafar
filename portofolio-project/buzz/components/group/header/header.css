@@ -11,6 +11,7 @@
     background-image: linear-gradient(to bottom right, #1509b6, rgb(37, 233, 240));
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    z-index: 2;
 }
 
 .header-left {
@@ -30,21 +31,21 @@
 }
 
 ul {
-    list-style-type: none;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 li {
     display: inline;
+    padding: 16px;
 }
 @media screen and (max-width: 875px) {
     .header-comp {
         flex-direction: column;
-        height: 25vh;
-        padding: 20px;
+        height: 15vh;
+        padding: 10px;
     }
 
     .header-left{
@@ -53,20 +54,17 @@ li {
     }
 
     .header-right{
-        flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
     ul{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: space-between;
     }
 
     li {
-        display: inline;
         align-items: center;
-        justify-content: space-between;
+        padding: 3px;
     }
 }

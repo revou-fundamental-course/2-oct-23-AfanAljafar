@@ -3,7 +3,7 @@ import "./aside.css";
 export default function Aside({ children }) {
   return (
     <div className="aside">
-      <p className="p">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus
         molestie purus a consequat. Proin nunc purus, mollis a porta sed,
         molestie vel felis. Maecenas rutrum posuere cursus. Sed scelerisque
