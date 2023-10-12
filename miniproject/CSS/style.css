@@ -1,0 +1,29 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.inputSection{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.ButtonSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.outputSection{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.explanation{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
